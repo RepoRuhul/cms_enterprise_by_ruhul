@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>TDD-CMS-ENTERPRISE-BY-RUHUL</groupId>
+	<artifactId>TDD-CMS-ENTERPRISE-BY-RUHUL</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>TDD-CMS-ENTERPRISE-BY-RUHUL</name>
+	<description>TDD-CMS-ENTERPRISE-BY-RUHUL</description>
+
+	<dependencies>
+		<!-- Selenium Java dependency is used to get access of Java based
+		selenium -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.20.0</version>
+		</dependency>
+
+		<!-- testNG is used to test the functionality of the Application -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.7.1</version>
+		</dependency>
+
+		<!-- Webdriver manager is used as an alternative for physical driver as
+		chromedriver, geckodriver etc -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.8.0</version>
+		</dependency>
+
+		<!-- slf4j-simple, slf4j-api is used to remove the error message
+		regarding slf4j in the console -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>2.0.7</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>2.0.7</version>
+		</dependency>
+
+		<!-- Most commonly used for reporting -->
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.1</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<!--maven-compiler plugin is used to compile the maven build -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<!--maven-surefire plugin is used to start the building -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.2.5</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (21dc801a502780b7c3891eab303c0b89)] -> name: user-d]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 4<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-10T16:51:22 EDT" name="Default suite" finished-at="2024-07-10T16:51:37 EDT" duration-ms="14877">
+    <groups>
+    </groups>
+    <test started-at="2024-07-10T16:51:22 EDT" name="Default test" finished-at="2024-07-10T16:51:37 EDT" duration-ms="14877">
+      <class name="pages.HomePageTest">
+        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:22 EDT" name="initialReporting" finished-at="2024-07-10T16:51:22 EDT" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialReporting -->
+        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:22 EDT" name="beforeClassSetUp" finished-at="2024-07-10T16:51:22 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetUp -->
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:22 EDT" name="initialTest" finished-at="2024-07-10T16:51:22 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.HomePageTest.clickLoginButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:22 EDT" name="setUp" finished-at="2024-07-10T16:51:25 EDT" duration-ms="3375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickLoginButtonTest()[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:25 EDT" name="clickLoginButtonTest" finished-at="2024-07-10T16:51:29 EDT" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLoginButtonTest -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:29 EDT" name="afterEachTest" finished-at="2024-07-10T16:51:29 EDT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.HomePageTest.clickLoginButtonTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickLoginButtonTest status=SUCCESS method=HomePageTest.clickLoginButtonTest()[pri:0, instance:pages.HomePageTest@75d3a5e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:29 EDT" name="tearUp" finished-at="2024-07-10T16:51:30 EDT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:30 EDT" name="initialTest" finished-at="2024-07-10T16:51:30 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.HomePageTest.clickUserIdFieldTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:30 EDT" name="setUp" finished-at="2024-07-10T16:51:32 EDT" duration-ms="2541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickUserIdFieldTest()[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:32 EDT" name="clickUserIdFieldTest" finished-at="2024-07-10T16:51:36 EDT" duration-ms="4274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (21dc801a502780b7c3891eab303c0b89)] -> name: user-d]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 4<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickUserIdFieldTest -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:36 EDT" name="afterEachTest" finished-at="2024-07-10T16:51:36 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.HomePageTest.clickUserIdFieldTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickUserIdFieldTest status=SUCCESS method=HomePageTest.clickUserIdFieldTest()[pri:0, instance:pages.HomePageTest@75d3a5e0] output=[[ChromeDriver: chrome on windows (21dc801a502780b7c3891eab303c0b89)] -> name: user-d]<---------> has been clicked<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:36 EDT" name="tearUp" finished-at="2024-07-10T16:51:37 EDT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:pages.HomePageTest@75d3a5e0]" started-at="2024-07-10T16:51:37 EDT" name="publishReport" finished-at="2024-07-10T16:51:37 EDT" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- pages.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
