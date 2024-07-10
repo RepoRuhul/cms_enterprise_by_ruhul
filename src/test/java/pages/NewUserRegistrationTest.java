@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import baseUtil.BaseClass;
 
 public class NewUserRegistrationTest extends BaseClass {
+	//abcd
 	
 	@Test
 	public void landingOnhomePageAndDirectingToNewUserRegistrationTest() {
